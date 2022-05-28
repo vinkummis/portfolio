@@ -1,0 +1,118 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main aside {
+  position: relative;
+  left: 0;
+  width: 20%;
+  text-align: center;
+  overflow: auto;
+  border-right: 1px solid #ebebeb;
+}
+
+body main aside .profile__pic {
+  height: 350px;
+}
+
+body main aside .profile__pic a {
+  width: 100%;
+  display: block;
+}
+
+body main aside .profile__pic a img {
+  width: 90%;
+  height: 350px;
+  border-radius: 50%;
+}
+
+body main aside .name__designation {
+  font-size: 16px;
+  color: #808080;
+}
+
+body main aside .name__designation p {
+  font-size: 14px;
+}
+
+body main aside .nav_sec {
+  text-align: center;
+}
+
+body main aside .nav_sec ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+}
+
+body main aside .nav_sec ul li {
+  padding: 10px 5px;
+}
+
+body main aside .nav_sec ul li a {
+  display: block;
+  padding: 5px 0;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #bbb;
+  border-radius: 20px;
+}
+
+body main aside .nav_sec ul li a:hover {
+  color: #808080;
+  text-decoration: underline;
+  background-color: #ebebeb;
+}
+
+body main aside .nav_sec ul li .active {
+  color: #808080;
+  text-decoration: underline;
+  background-color: #ebebeb;
+}
+
+body main .detail {
+  width: 80%;
+  background-color: #fbfbfb;
+}
+
+body main .detail .home_detail {
+  position: relative;
+  text-align: center;
+}
+
+body main .detail .home_detail img {
+  width: 100%;
+}
+
+body main .detail .home_detail .centered__left {
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 36px;
+  color: #808080;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+body main .detail .home_detail .centered__left .text-black {
+  color: #000;
+}
+
+body main .detail .home_detail .centered__left .text-orange {
+  color: orange;
+}
+/*# sourceMappingURL=style.css.map */

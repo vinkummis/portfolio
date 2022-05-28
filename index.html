@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VINCE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main">
+        <aside>
+            <div class="side__nav">
+                <section class="profile__pic">
+                    <a href="">
+                        <img src="assests/images/profile_pic.jpeg" alt="profile picture">
+                    </a>
+                </section>
+                <section class="name__designation">
+                    <h1>
+                        Vinodkumar Mishra (Vince)
+                    </h1>
+                    <p>
+                        <b>NodeJs Developer | Javascript Developer | Website Developer</b>
+                    </p>
+                </section>
+                <section class="nav_sec">
+                    <nav>
+                        <ul class="navigations">
+                            <li><a href="" class="nav_link active">HOME</a></li>
+                            <li><a href="" class="nav_link">ABOUT</a></li>
+                            <li><a href="" class="nav_link">SERVICE</a></li>
+                            <li><a href="" class="nav_link">SKILLS</a></li>
+                            <li><a href="" class="nav_link">EDUCATION</a></li>
+                            <li><a href="" class="nav_link">EXPERIENCE</a></li>
+                            <li><a href="" class="nav_link">WORK</a></li>
+                            <li><a href="" class="nav_link">BLOG</a></li>
+                            <li><a href="" class="nav_link">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </aside>
+        <section class="detail">
+            <div class="home_detail">
+                <img src="./assests/images/profile_pic.jpeg" alt="full size profile pic">
+                <div class="centered__left">
+                    <span class="text-black">I'M</span><br><span class="text-orange">NODEJS DEVELOPER</span>
+                </div>
+            </div>
+            <div class="about_detail">
+
+            </div>
+            <div class="service_detail">
+
+            </div>
+            <div class="skills_detail">
+
+            </div>
+            <div class="education_detail">
+
+            </div>
+            <div class="experience_detail">
+
+            </div>
+            <div class="work_detail">
+
+            </div>
+            <div class="blog_detail">
+
+            </div>
+            <div class="contact_detail">
+
+            </div>
+        </section>
+    </main>
+    <script>
+        function autoResizeDiv()
+        {
+            document.getElementById('main').style.height = window.innerHeight +'px';
+            document.querySelector('.home_detail > img').style.height = window.innerHeight - 3 +'px';
+        }
+        window.onresize = autoResizeDiv;
+        autoResizeDiv();
+    </script>
+</body>
+</html>
